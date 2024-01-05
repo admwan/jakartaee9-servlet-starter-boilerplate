@@ -24,7 +24,7 @@
 
     <!-- Jersey Servlet config -->
     <!-- Optional since servlet 3.0 -->
-    <!--<servlet>
+    <servlet>
             <servlet-name>Jersey Web Application</servlet-name>
             <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
             <init-param>
@@ -36,7 +36,7 @@
         <servlet-mapping>
             <servlet-name>Jersey Web Application</servlet-name>
             <url-pattern>/api/*</url-pattern>
-        </servlet-mapping>-->
+        </servlet-mapping>
 
 
     <!-- Faces Servlet config -->
